@@ -1,0 +1,22 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+.card input::placeholder {
+    color: #5d5d5d;
+}
+
+.card input {
+    border-bottom-color: #5d5d5d !important;
+}
+
+.card label {
+    color: #000;
+}
+
+.card input:focus + label {
+    color: #CA6F1E !important;
+}
+
+.card input:focus {
+    border-bottom-color: #CA6F1E !important;
+    box-shadow: none !important;
+}
