@@ -14,9 +14,9 @@ export const Navbar = () => {
 
     return (
         <nav className="blue-grey">
-            <div class="nav-wrapper">
-                <a href="#" class="brand-logo">Minimize your url</a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <div className="nav-wrapper">
+                <a className="brand-logo">Minimize your url</a>
+                <ul id="nav-mobile" className="right hide-on-med-and-down">
                     <li><NavLink to="/create">Create</NavLink></li>
                     <li><NavLink to="/links">Links</NavLink></li>
                     <li><a href="/" onClick={logoutHandler}>Exit</a></li>
