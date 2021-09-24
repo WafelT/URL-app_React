@@ -13,7 +13,7 @@ export const Navbar = () => {
     }
 
     return (
-        <nav className="blue-grey">
+        <nav className="ps20 blue-grey">
             <div className="nav-wrapper">
                 <a className="brand-logo">Minimize your url</a>
                 <ul id="nav-mobile" className="right hide-on-med-and-down">

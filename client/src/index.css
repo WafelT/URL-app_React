@@ -1,5 +1,9 @@
 @import "~materialize-css/dist/css/materialize.min.css";
 
+.ps20 {
+    padding: 0 20px;
+}
+
 .card input::placeholder {
     color: #5d5d5d;
 }
